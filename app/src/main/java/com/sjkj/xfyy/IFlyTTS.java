@@ -31,7 +31,7 @@ public class IFlyTTS implements TTS, SynthesizerListener, OnAudioFocusChangeList
     /**
      * 请替换您自己申请的ID。
      */
-    private final String appId = "5ca2fccc";
+    private final String appId = "";
 
     public static IFlyTTS getInstance(Context context) {
         if (iflyTTS == null) {
